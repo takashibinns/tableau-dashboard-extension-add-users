@@ -138,7 +138,7 @@ export class Config extends React.Component {
         </DropdownSelect>
         <br/>
         <div>
-          <span>The selected sheet is required to have fields named "username", "siteRole", & "authSetting".  More details on how these fields are used can be found in the</span>
+          <span>The selected sheet is required to have fields named "username", "fullName", "siteRole", & "authSetting".  More details on how these fields are used can be found in the</span>
           <TextLink kind='standalone' target='_blank' href='https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_ref_users_and_groups.htm#add_user_to_site'>
             Tableau REST API Help
           </TextLink> 
