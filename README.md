@@ -11,7 +11,17 @@ Download the TREX file [here](https://raw.githubusercontent.com/takashibinns/tab
 - **siteRole**: Can be any of the following: Creator, Explorer, ExplorerCanPublish, SiteAdministratorExplorer, SiteAdministratorCreator, Unlicensed, or Viewer
 - **authSetting**: Can be any of the following: ServerDefault, SAML, OpenID, or TableauIDWithMFA
 
-Now that you have the data containing a list of users to add, open the extension's configuration popup.  Enter the authentication details for your Tableau environment (username/password must be an admin user, in order to have permissions to add users).
+Now that you have the data containing a list of users to add, open the extension's configuration popup.  Enter the authentication details for your Tableau environment
 
 ![Config Popup](https://github.com/takashibinns/tableau-dashboard-extension-add-users/raw/main/screenshots/config-popup.png)
 
+- **Tableau URL**: This is the base url of your Tableau environment (ex. https://us-west-2.online.tableau.com).  Do not include a backslash at the end of this URL
+- **Site Name**: The name of your Tableau site (can be found from your Tableau environmen's URL) 
+- **API Version**: The version of the REST API to use.  Tableau Cloud will always support the most recent version, but if using Tableau Server check out this [table](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_concepts_versions.htm#tableau-server-versions-and-rest-api-versions) to determine what version of the REST API to use
+- **Username**: This must be an admin user, in order to have permissions to add users
+- **Password**: Password for the admin user
+- **Sheet**: Which sheet within your dashboard contains the list of users to add?
+ 
+![Tableau URL screenshot](https://github.com/takashibinns/tableau-dashboard-extension-add-users/raw/main/screenshots/tableau-details.png)
+
+Once you've added your configuration settings, click the Save button to close the popup.  Now, you should be able to click the blue Save button in your dashboard to add the users to Tableau.  If there is ever a problem adding users, this extension will add the ones it can and let you know about any errors for specific users.
