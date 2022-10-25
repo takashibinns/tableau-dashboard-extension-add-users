@@ -132,7 +132,7 @@ export class Config extends React.Component {
         <br/>
         <TextField label="Password" stateprop="password" type="password" value={this.state.password} {...textFieldProps}/>
         <br/>
-        <DropdownSelect label='Label' kind='line'
+        <DropdownSelect label='Sheet' kind='line'
                         onChange={e => thisComponent.setState({ dataSheet: e.target.value })}>
            { items }
         </DropdownSelect>
