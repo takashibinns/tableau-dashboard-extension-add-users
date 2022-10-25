@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tableau-dashboard-extension-add-users/static/css/main.db8dd567.css",
-    "main.js": "/tableau-dashboard-extension-add-users/static/js/main.a337064c.js",
+    "main.js": "/tableau-dashboard-extension-add-users/static/js/main.b98b003d.js",
     "static/js/787.58519fff.chunk.js": "/tableau-dashboard-extension-add-users/static/js/787.58519fff.chunk.js",
     "index.html": "/tableau-dashboard-extension-add-users/index.html",
     "main.db8dd567.css.map": "/tableau-dashboard-extension-add-users/static/css/main.db8dd567.css.map",
-    "main.a337064c.js.map": "/tableau-dashboard-extension-add-users/static/js/main.a337064c.js.map",
+    "main.b98b003d.js.map": "/tableau-dashboard-extension-add-users/static/js/main.b98b003d.js.map",
     "787.58519fff.chunk.js.map": "/tableau-dashboard-extension-add-users/static/js/787.58519fff.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db8dd567.css",
-    "static/js/main.a337064c.js"
+    "static/js/main.b98b003d.js"
   ]
 }
