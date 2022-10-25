@@ -255,7 +255,7 @@ export class DashboardExtension extends React.Component {
     function configure () {
 
       //  Determine the config popup's url
-      const url = window.location.origin + "/config";
+      const url = window.location.href + "/config";
     
       //  Initialize the extension's config popup     
       tableau.extensions.ui.displayDialogAsync(url, "", { height: 500, width:400 } ).then((closePayload) => {
