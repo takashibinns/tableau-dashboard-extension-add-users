@@ -15,8 +15,8 @@ Now that you have the data containing a list of users to add, open the extension
 
 ![Config Popup](https://github.com/takashibinns/tableau-dashboard-extension-add-users/raw/main/screenshots/config-popup.png)
 
-- **Tableau URL**: This is the base url of your Tableau environment (ex. https://us-west-2.online.tableau.com).  Do not include a backslash at the end of this URL
-- **Site Name**: The name of your Tableau site (can be found from your Tableau environmen's URL) 
+- **Tableau URL**: This is the base url of your Tableau environment (ex. `https://us-west-2.online.tableau.com`).  Do not include a backslash at the end of this URL
+- **Site Name**: The name of your Tableau site (can be found from your Tableau environmen's URL).  If using the default site on Tableau Server, just leave this blank
 - **API Version**: The version of the REST API to use.  Tableau Cloud will always support the most recent version, but if using Tableau Server check out this [table](https://help.tableau.com/current/api/rest_api/en-us/REST/rest_api_concepts_versions.htm#tableau-server-versions-and-rest-api-versions) to determine what version of the REST API to use
 - **Username**: This must be an admin user, in order to have permissions to add users
 - **Password**: Password for the admin user
