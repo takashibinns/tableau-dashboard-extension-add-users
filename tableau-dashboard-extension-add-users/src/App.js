@@ -1,4 +1,4 @@
-import { Routes, Route, BrowserRouter as Router } from "react-router-dom";
+import { Routes, Route, HashRouter as Router } from "react-router-dom";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { DashboardExtension } from './components/DashboardExtension';
@@ -16,10 +16,10 @@ function App() {
       <ToastContainer position="top-center" autoClose={5000} hideProgressBar newestOnTop theme="colored"
           closeOnClick rtl={false} pauseOnFocusLoss draggable={false} pauseOnHover
       />
-      <Router>
+      <Router >
         <Routes>
-          <Route exact path="/" element={<DashboardExtension settingsKey={defaults.settingsKey} />} />
-          <Route exact path="/config" element={<Config settingsKey={defaults.settingsKey} defaultApiVersion={defaults.apiVersion}/>} />
+          <Route path="/" element={<DashboardExtension settingsKey={defaults.settingsKey} />} />
+          <Route path="/config" element={<Config settingsKey={defaults.settingsKey} defaultApiVersion={defaults.apiVersion}/>} />
         </Routes>
       </Router>
     </div>

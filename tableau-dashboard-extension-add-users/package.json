@@ -1,7 +1,7 @@
 {
   "name": "tableau-dashboard-extension-add-users",
   "version": "0.1.0",
-  "homepage": "https://takashibinns.github.io/tableau-dashboard-extension-add-users/",
+  "homepage": "https://takashibinns.github.io/tableau-dashboard-extension-add-users",
   "private": true,
   "dependencies": {
     "@tableau/extensions-api-types": "^1.9.0",
